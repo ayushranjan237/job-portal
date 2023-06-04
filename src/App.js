@@ -9,12 +9,8 @@ const App = () => {
     <Router>
       <div className="app">
         <Routes>
-          <Route exact path="/">
-            <JobList />
-          </Route>
-          <Route path="/job/:id">
-            <JobDetails />
-          </Route>
+          <Route path="/" element={<JobList />} />
+          <Route path="/job/:id" element={<JobDetails />} />
         </Routes>
       </div>
     </Router>
