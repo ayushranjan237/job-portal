@@ -17,18 +17,42 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
+   
   }
   
   /* JobItem */
   .job-item {
-    border: 1px solid #ccc;
+    border: 2px solid #0a0a0a;
     padding: 10px;
+    background-color: #9acbff;
   }
   
   /* JobDetails */
   .job-details {
     padding: 20px;
     border: 1px solid #ccc;
+   
+  }
+
+  .header {
+    background-color: rgb(84, 71, 187);
+    border: 2px solid red;
+    position: static;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    font-size: 20px;
+    
+  }
+
+  .footer {
+    background-color: rgb(84, 71, 187);
+    border: 2px solid red;
+    position: static;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    font-size: 20px;
   }
   
   /* Navigation */
